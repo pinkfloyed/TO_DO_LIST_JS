@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Programming Links</title>
+</head>
+<body style="background-image: url(pik.png);">
+    <div class="container mt-4">
+  
+    <h2 class="display=4 text-center"><i class="fas float-sm-left text-warning"></i>PROGRAMMING AND&nbsp;&nbsp;<span >ONLINE JUDGE&nbsp;&nbsp;</span>LIST</h2>
+    <form id="book-form">
+        <div class="form group">
+            <label for="name">Enter Your Name</label>
+            <input type="text" id="name" class="form-control"/>
+        </div>
+
+        <div class="form group">
+            <label for="links">Enter Links</label>
+            <input type="text" id="links" class="form-control"/>
+        </div>
+
+        <div class="form group">
+            <label for="judge">Enter Online Judge</label>
+            <input type="text" id="judge" class="form-control"/>
+        </div>
+
+        <div class="form group">
+            <label for="date">Enter Date</label>
+            <input type="text" id="date" class="form-control"/><br/><br/>
+        </div>
+       <input type="submit" value="Add Link" class="btn btn-warning btn-clock" />
+       <br/><br/>
+    </form>
+
+<table class="table table-striped mt-5 text-center">
+    <thead><tr>
+        <th>Name</th>
+        <th>Program Links</th>
+        <th>Online Judge</th>
+        <th>Date</th>
+    </tr>
+    </thead>
+    <tbody id="link-list"></tbody>
+</table>
+</div>
+<script src="program.js"></script>
+</body>
+</html>
